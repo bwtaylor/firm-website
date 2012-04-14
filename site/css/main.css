@@ -1,0 +1,123 @@
+/* COLORS
+#9cc5c9 light blue
+#b22222 brick red
+#f5f0d7 off-white
+*/
+
+#header  {
+	height: 415px;
+	width: 853px;
+	background-image: url(../images/big-banner.png);
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#maintable {
+    margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#maintable table.center {
+    width:855;
+    border: 1px solid #b22222;
+}
+
+#buttons {
+    width: 847px;
+    height: 36px;
+    border: 1px solid white;
+    background-color: #b22222;
+    color: white;
+    padding: 5;
+    margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	text-align:center;
+
+}
+
+td.practice-areas {
+    width:280;
+    vertical-align:top;
+    text-align:top;
+    border: 1px solid #b22222;
+    padding: 5;
+    margin: 0;
+    background-color: #1d2953;
+    color: white;
+}
+
+td.practice-areas h1 {
+    font-size: medium;
+    font-family: sans-serif;
+    color: white;
+}
+
+td.practice-areas ul {
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    overflow: visible; 
+} 
+
+td.practice-areas ul li {
+    font-family: sans-serif;
+    font-size: 20px;
+    width:270;
+    margin: 0; 
+    padding: 0 20 10; 
+} 
+
+td.practice-areas a ,
+td.practice-areas a:visited
+{
+    background: url(../images/arrow.png) 8 0 no-repeat;
+    background-color: #374e9e;
+    padding: 0 40;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+td.practice-areas a.active,  
+td.practice-areas a:hover 
+{
+    background: url(../images/arrow.png) 8 0 no-repeat;
+    background-color: #9e4e37;
+    color: white;
+}
+
+
+    
+
+td.regular-content {
+    font-family: sans-serif;
+    border: 1px solid #b22222;
+    padding: 10;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+td.regular-content a {
+    color: #1d2953;
+}
+
+td.regular-content h1 {
+    color: #1d2953;
+    font-size: x-large;
+}
+
+tr {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background: url(../images/side.jpg) repeat-x #9cc5c9; text-align: center; 
+}
+    

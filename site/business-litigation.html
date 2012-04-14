@@ -1,0 +1,111 @@
+<html>
+<head>
+  <title>The Law Offices of Jessica Taylor</title>
+  <link rel="icon" type="image/png" href="images/JT-logo-favicon.png" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+  <script language="JavaScript" type="text/javascript">
+  
+  function highlight(item) {
+    var img = getChildRolloverImage(item)
+    var name = img.getAttribute("name")
+    img.setAttribute("src",  "images/buttons/" + name + "-x-button.png" )
+    return true;
+  } 
+
+  function unhighlight(item){
+    var img = getChildRolloverImage(item)
+    var name = img.getAttribute("name")
+    img.setAttribute("src",  "images/buttons/" + name + "-button.png" )
+    return true;
+  }
+  
+  function getChildRolloverImage(item) {
+      var children = item.getElementsByTagName("img");
+      for (var i=0; i < children.length; i++) {
+          var node = children[i]
+		  if (node.getAttribute("class") == "rollover") {
+			  return node;
+		  }
+	  }
+  }
+  </script>
+
+</head>
+<body>
+  <div id="maintable">
+  <table class="center" align="center">
+  <tr>
+    <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/logo-banner.png" width="853" height="150"></a><br/>
+    <div id="buttons">
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="index.html">
+        <img name="home" class="rollover" alt="Home" src="images/buttons/home-button.png" width="87" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="attorneys/jessica-taylor.html">
+        <img name="attorney-profile" class="rollover" alt="Attorney Profile" src="images/buttons/attorney-profile-button.png" width="238" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="practice-areas.html">
+        <img name="practice-areas" class="rollover" alt="Practice Areas" src="images/buttons/practice-areas-button.png" width="201" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)"  href="resources.html">
+        <img name="resources" class="rollover" alt="Resources" src="images/buttons/resources-button.png" width="141" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="contact.html">
+        <img name="contact" class="rollover" alt="Contact" src="images/buttons/contact-button.png" width="125" height="32"/>
+      </a>
+    </div>
+    <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/sc-banner.png" width="853" height="240"></a><br/>
+  </tr>
+  <tr>
+    <td class="practice-areas">
+      <h1>Practice Areas</h1>
+      <ul>
+        <li><a href="longtermdisability.html">Long Term Disability</a></li>
+        <li><a href="insurance-litigation.html">Insurance Litigation</a></li>
+        <li><a href="family-law.html">Family Law</a></li>
+        <li><a href="business-litigation.html">Business Litigation</a></li>
+      </ul>
+    </td>
+
+    <td class="regular-content">
+    <h1>San Antonio Business and Commercial Litigation Attorney</h1>
+ 
+    <h4>Texas Breach of Contract Lawyers</h4>
+
+    Ms. Taylor has significant experience handling business disputes in Texas 
+    state court.  Business disputes can involve partnership contracts, business 
+    dissolution, buy/sell and purchase agreements and many other areas. All are 
+    different but have the same result - distraction, stress, and the possibility 
+    of the loss of assets and the right and ability to conduct business. <p/>
+
+    At The Law Office of Jessica Taylor, we offer affordable and effective 
+    legal solutions to your commercial litigation issues. Frequent business 
+    disputes include:
+    <ul>
+      <li>Breach of contract</li>
+      <li>Commercial collections</li>
+      <li>Business fraud</li>
+      <li>Partnership disputes</li>
+      <li>Claims for tortious interference</li>
+      <li>Trade secrets</li>
+      <li>Lease disputes</li>
+      <li>Breach of fiduciary duty</li>
+      <li>Intentional misrepresentation</li>
+    </ul>
+
+    If you or the company you represent are involved in a dispute, we offer 
+    experienced commercial litigation services.
+
+    <h4>Contact Us</h4>
+
+    Are you facing a business dispute?  <a href="contact.html">Contact Ms. Taylor</a>
+    today to schedule a <b>free consultation about your case</b>. 
+
+
+    </td>
+  </tr>
+
+  </table>
+  </div>
+  
+</body>
+</html>

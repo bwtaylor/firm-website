@@ -1,0 +1,116 @@
+<html>
+<head>
+  <title>The Law Offices of Jessica Taylor</title>
+  <link rel="icon" type="image/png" href="images/JT-logo-favicon.png" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+  <script language="JavaScript" type="text/javascript">
+  
+  function highlight(item) {
+    var img = getChildRolloverImage(item)
+    var name = img.getAttribute("name")
+    img.setAttribute("src",  "images/buttons/" + name + "-x-button.png" )
+    return true;
+  } 
+
+  function unhighlight(item){
+    var img = getChildRolloverImage(item)
+    var name = img.getAttribute("name")
+    img.setAttribute("src",  "images/buttons/" + name + "-button.png" )
+    return true;
+  }
+  
+  function getChildRolloverImage(item) {
+      var children = item.getElementsByTagName("img");
+      for (var i=0; i < children.length; i++) {
+          var node = children[i]
+		  if (node.getAttribute("class") == "rollover") {
+			  return node;
+		  }
+	  }
+  }
+  </script>
+
+</head>
+<body>
+  <div id="maintable">
+  <table class="center" align="center">
+  <tr>
+    <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/logo-banner.png" width="853" height="150"></a><br/>
+    <div id="buttons">
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="index.html">
+        <img name="home" class="rollover" alt="Home" src="images/buttons/home-button.png" width="87" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="attorneys/jessica-taylor.html">
+        <img name="attorney-profile" class="rollover" alt="Attorney Profile" src="images/buttons/attorney-profile-button.png" width="238" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="practice-areas.html">
+        <img name="practice-areas" class="rollover" alt="Practice Areas" src="images/buttons/practice-areas-button.png" width="201" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)"  href="resources.html">
+        <img name="resources" class="rollover" alt="Resources" src="images/buttons/resources-button.png" width="141" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="contact.html">
+        <img name="contact" class="rollover" alt="Contact" src="images/buttons/contact-button.png" width="125" height="32"/>
+      </a>
+    </div>
+    <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/sc-banner.png" width="853" height="240"></a><br/>
+  </tr>
+  <tr>
+    <td class="practice-areas">
+      <h1>Practice Areas</h1>
+      <ul>
+        <li><a href="longtermdisability.html">Long Term Disability</a></li>
+        <li><a href="insurance-litigation.html">Insurance Litigation</a></li>
+        <li><a href="family-law.html">Family Law</a></li>
+        <li><a href="business-litigation.html">Business Litigation</a></li>
+      </ul>
+    </td>
+    <td class="regular-content"><h1>The Law Offices of Jessica Taylor</h1>
+      The Law Office of Jessica Taylor provides compassionate, yet aggressive advocacy for 
+      individuals who are coping with serious problems such as loss of income due to disability, 
+      the unjustified denial of insurance benefits, or the upheaval of divorce.  The Law Office 
+      of Jessica Taylor understands that legal problems can be stressful and confusing, creating 
+      significant difficulties for those involved.  <p/>
+
+      <a href="attorneys/jessica-taylor.html">Jessica Taylor</a> brings more than 12 years of 
+      experience trying cases in state and federal court in Texas.  She takes an aggressive 
+      approach on behalf of her clients, using her experience, skill and knowledge to help 
+      you get the results you seek. 
+      
+      Ms. Taylor's practice areas include:
+      
+      <ul>
+        <li> <a href="longtermdisability.html">Long term disability claim litigation</a> 
+          <ul>
+            <li>Claim and appeal preparation</li>
+            <li>ERISA litigation</li>
+            <li>Insurance bad faith litigation</li>
+          </ul>
+        </li>
+        <li> <a href="insurance-litigation.html">Insurance bad faith litigation</a>
+          <ul>
+            <li>Disability insurance bad faith</li>
+            <li>Life insurance bad faith</li>
+            <li>Homeowner's property insurance bad faith</li>
+          </ul>
+        </li>
+        <li> <a href="family-law.html">Family law</a>
+          <ul>
+            <li> Divorce </li>
+            <li> Child support </li>
+            <li> Child custody </li>
+            <li> Enforcement </li>
+            <li> Protective orders </li>
+          </ul>
+        </li>
+        <li> <a href="business-litigation.html">Business litigation</a> </li>
+        <p/>
+        To make an appointment for a <b>free initial consultation</b>, please call 210-701-0665 or send us an email.  
+    </td>
+  </tr>
+
+  </table>
+  </div>
+  
+</body>
+</html>

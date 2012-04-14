@@ -1,0 +1,110 @@
+<html>
+<head>
+  <title>The Law Offices of Jessica Taylor</title>
+  <link rel="icon" type="image/png" href="images/JT-logo-favicon.png" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+  <script language="JavaScript" type="text/javascript">
+  
+  function highlight(item) {
+    var img = getChildRolloverImage(item)
+    var name = img.getAttribute("name")
+    img.setAttribute("src",  "images/buttons/" + name + "-x-button.png" )
+    return true;
+  } 
+
+  function unhighlight(item){
+    var img = getChildRolloverImage(item)
+    var name = img.getAttribute("name")
+    img.setAttribute("src",  "images/buttons/" + name + "-button.png" )
+    return true;
+  }
+  
+  function getChildRolloverImage(item) {
+      var children = item.getElementsByTagName("img");
+      for (var i=0; i < children.length; i++) {
+          var node = children[i]
+		  if (node.getAttribute("class") == "rollover") {
+			  return node;
+		  }
+	  }
+  }
+  </script>
+
+</head>
+<body>
+  <div id="maintable">
+  <table class="center" align="center">
+  <tr>
+    <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/logo-banner.png" width="853" height="150"></a><br/>
+    <div id="buttons">
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="index.html">
+        <img name="home" class="rollover" alt="Home" src="images/buttons/home-button.png" width="87" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="attorneys/jessica-taylor.html">
+        <img name="attorney-profile" class="rollover" alt="Attorney Profile" src="images/buttons/attorney-profile-button.png" width="238" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="practice-areas.html">
+        <img name="practice-areas" class="rollover" alt="Practice Areas" src="images/buttons/practice-areas-button.png" width="201" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)"  href="resources.html">
+        <img name="resources" class="rollover" alt="Resources" src="images/buttons/resources-button.png" width="141" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="contact.html">
+        <img name="contact" class="rollover" alt="Contact" src="images/buttons/contact-button.png" width="125" height="32"/>
+      </a>
+    </div>
+    <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/sc-banner.png" width="853" height="240"></a><br/>
+  </tr>
+  <tr>
+    <td class="practice-areas">
+      <h1>Practice Areas</h1>
+      <ul>
+        <li><a href="longtermdisability.html">Long Term Disability</a></li>
+        <li><a href="insurance-litigation.html">Insurance Litigation</a></li>
+        <li><a href="family-law.html">Family Law</a></li>
+        <li><a href="business-litigation.html">Business Litigation</a></li>
+      </ul>
+    </td>
+    <td class="regular-content"><h1>San Antonio Divorce Attorney</h1>
+
+    If you are contemplating divorce or need help with a family law issue, such as 
+    child custody or visitation, child support, spousal support, or the division of 
+    community property and debts, The Law Office of Jessica Taylor can help.  The Law 
+    Office of Jessica Taylor understands how difficult and stressful this time can be.  
+    To resolve these issues, you want a compassionate, yet aggressive, lawyer you can 
+    trust - a strong advocate who will protect your rights and work to achieve your goals.  
+    You will find that in attorney <a href="attorneys/jessica-taylor.html">Jessica Taylor</a>.<p/>
+
+    Ms. Taylor takes the time to work closely with clients, providing them with the personalized 
+    attention they might not find elsewhere.  She prides herself on the quality of service she 
+    provides for her clients, offering affordable fee structures.  <p/>
+
+    The Law Office of Jessica Taylor handles all issues concerning family law, including
+    <ul>
+      <li>Contested divorce</li>
+      <li>Uncontested divorce</li>
+      <li>Child custody and visitation</li>
+      <li>Child support</li>
+      <li>Spousal support</li>
+      <li>Property and debt division</li>
+      <li>Modification of custody and/or support</li>
+      <li>Support enforcement issues</li>
+      <li>Prenuptial agreements</li>
+    </ul>
+
+    Ms. Taylor understands the need for the compassionate resolution of your family law 
+    dispute, especially the emotionally charged areas of divorce and issues affecting children.  
+    Getting your family legal issues handled in a fast and efficient manner is important so that 
+    you can get on with the business of living your life, raising your children, and creating 
+    your future. <p/>
+
+    Are you facing a family law issue or divorce?  <a href="contact.html">Contact Ms. Taylor</a>
+    today to schedule a consultation about your case. 
+    </td>
+  </tr>
+
+  </table>
+  </div>
+  
+</body>
+</html>

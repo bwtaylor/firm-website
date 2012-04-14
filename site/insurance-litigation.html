@@ -1,0 +1,110 @@
+<html>
+<head>
+  <title>The Law Offices of Jessica Taylor</title>
+  <link rel="icon" type="image/png" href="images/JT-logo-favicon.png" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+  <script language="JavaScript" type="text/javascript">
+  
+  function highlight(item) {
+    var img = getChildRolloverImage(item)
+    var name = img.getAttribute("name")
+    img.setAttribute("src",  "images/buttons/" + name + "-x-button.png" )
+    return true;
+  } 
+
+  function unhighlight(item){
+    var img = getChildRolloverImage(item)
+    var name = img.getAttribute("name")
+    img.setAttribute("src",  "images/buttons/" + name + "-button.png" )
+    return true;
+  }
+  
+  function getChildRolloverImage(item) {
+      var children = item.getElementsByTagName("img");
+      for (var i=0; i < children.length; i++) {
+          var node = children[i]
+		  if (node.getAttribute("class") == "rollover") {
+			  return node;
+		  }
+	  }
+  }
+  </script>
+
+</head>
+<body>
+  <div id="maintable">
+  <table class="center" align="center">
+  <tr>
+    <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/logo-banner.png" width="853" height="150"></a><br/>
+    <div id="buttons">
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="index.html">
+        <img name="home" class="rollover" alt="Home" src="images/buttons/home-button.png" width="87" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="attorneys/jessica-taylor.html">
+        <img name="attorney-profile" class="rollover" alt="Attorney Profile" src="images/buttons/attorney-profile-button.png" width="238" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="practice-areas.html">
+        <img name="practice-areas" class="rollover" alt="Practice Areas" src="images/buttons/practice-areas-button.png" width="201" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)"  href="resources.html">
+        <img name="resources" class="rollover" alt="Resources" src="images/buttons/resources-button.png" width="141" height="32"/>
+      </a>
+      <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="contact.html">
+        <img name="contact" class="rollover" alt="Contact" src="images/buttons/contact-button.png" width="125" height="32"/>
+      </a>
+    </div>
+    <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/sc-banner.png" width="853" height="240"></a><br/>
+  </tr>
+  <tr>
+    <td class="practice-areas">
+      <h1>Practice Areas</h1>
+      <ul>
+        <li><a href="longtermdisability.html">Long Term Disability</a></li>
+        <li><a href="insurance-litigation.html">Insurance Litigation</a></li>
+        <li><a href="family-law.html">Family Law</a></li>
+        <li><a href="business-litigation.html">Business Litigation</a></li>
+      </ul>
+    </td>
+    
+    <td class="regular-content"><h1>San Antonio Bad Faith Insurance Claims Attorney</h1>
+
+    <h4>You Pay Premiums, You Have A Right To Fair Treatment</h4>
+
+    You obtain insurance so you will be protected if something unexpected happens. You make 
+    your premium payments on a timely basis, and you expect your insurance company to be 
+    there for you and to treat your fairly and in good faith when things go wrong. If your 
+    insurance company fails to provide you with the coverage or claims handling you deserve, 
+    it is time to talk to an experienced lawyer who can protect your rights. At The Law Office 
+    of Jessica Taylor, we protect the rights of individuals and businesses across Texas who have 
+    been the victims of bad faith insurance claims.<p/>
+
+    Whether non-employer provided disability insurance, life insurance, homeowners insurance, 
+    auto insurance or property & casualty insurance, when you experience a loss and submit 
+    your claim, your insurance company must handle your claim with utmost good faith and 
+    fair dealing. If your insurance company delays or denies your legitimate claim or refuses 
+    to pay it in full for any reason, you have a legal option. <p/>
+
+    You can file a bad faith insurance claim against your insurance company to enforce 
+    your claim and receive compensation for your losses. Ms. Taylor will examine your 
+    case and determine whether or not your insurance company has exercised the utmost 
+    good faith and fair dealing. <p/>
+
+    You may feel helpless against a large insurance company but, as an experienced 
+    litigator, Ms. Taylor is not afraid to aggressively challenge big insurance 
+    companies. We know how much you have at stake, and we will put our experience 
+    and resources to work for you. <p/>
+
+    <h4>Contact Us</h4>
+    We will provide personal service and hands-on counsel from start to finish of your case 
+    and be there for you every step of the way. The sooner you take action, the sooner 
+    you can pursue the compensation and coverage you deserve for your losses.  We offer 
+    a contingent fee option for these cases.  If you need quality legal representation, 
+    <a href="contact">contact</a> our office for a free initial consultation.
+    </td>
+  </tr>
+
+  </table>
+  </div>
+  
+</body>
+</html>

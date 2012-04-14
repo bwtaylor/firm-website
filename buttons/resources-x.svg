@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3088"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/resources-x-button.png"
+   inkscape:export-xdpi="88.819565"
+   inkscape:export-ydpi="88.819565"
+   sodipodi:docname="resources-x.svg">
+  <defs
+     id="defs3090" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2904961"
+     inkscape:cx="157.3625"
+     inkscape:cy="819.47596"
+     inkscape:document-units="px"
+     inkscape:current-layer="g9522"
+     showgrid="false"
+     inkscape:window-width="810"
+     inkscape:window-height="796"
+     inkscape:window-x="80"
+     inkscape:window-y="80"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3093">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g9522"
+       transform="translate(-78.253528,-284.5393)">
+      <rect
+         ry="30.30249"
+         rx="0"
+         y="342.0441"
+         x="124.26093"
+         height="30.30249"
+         width="141"
+         id="rect9413-4-6"
+         style="fill:#e88888;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/resources-button.png"
+         inkscape:export-xdpi="88.819565"
+         inkscape:export-ydpi="88.819565" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text9417-9"
+         y="365.17514"
+         x="135.72868"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f5f0d7;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f5f0d7;fill-opacity:1;font-family:Perpetua Titling MT;-inkscape-font-specification:Perpetua Titling MT Bold"
+           y="365.17514"
+           x="135.72868"
+           id="tspan9419-2"
+           sodipodi:role="line">ResourCes</tspan></text>
+    </g>
+  </g>
+</svg>
