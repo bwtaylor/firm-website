@@ -14,7 +14,10 @@
    id="svg3478"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="logo-banner.svg">
+   sodipodi:docname="logo-banner.svg"
+   inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/logo-banner.png"
+   inkscape:export-xdpi="96.170319"
+   inkscape:export-ydpi="96.170319">
   <defs
      id="defs3480">
     <filter
@@ -439,8 +442,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.952709"
-     inkscape:cx="239.92809"
-     inkscape:cy="997.32144"
+     inkscape:cx="629.13099"
+     inkscape:cy="956.35271"
      inkscape:document-units="px"
      inkscape:current-layer="g9517-4"
      showgrid="false"
@@ -457,7 +460,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -573,33 +576,33 @@
       <text
          xml:space="preserve"
          style="font-size:40px;font-style:normal;font-weight:normal;line-height:92.00000167%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-         x="489.10968"
-         y="18.543098"
+         x="495.88568"
+         y="32.157391"
          id="text4597-1"
          sodipodi:linespacing="92.000002%"><tspan
            sodipodi:role="line"
            id="tspan4599-4"
-           x="489.10968"
-           y="18.543098"
+           x="495.88568"
+           y="32.157391"
            style="font-size:20.37458611px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Perpetua;-inkscape-font-specification:Perpetua" /><tspan
            sodipodi:role="line"
-           x="489.10968"
-           y="43.037201"
+           x="495.88568"
+           y="56.651493"
            style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:92.00000167%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Perpetua;-inkscape-font-specification:Perpetua"
            id="tspan3785">For A Free</tspan><tspan
            sodipodi:role="line"
-           x="489.10968"
-           y="65.117203"
+           x="495.88568"
+           y="78.731491"
            id="tspan4605-6"
            style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:92.00000167%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Perpetua;-inkscape-font-specification:Perpetua">Consultation Call:</tspan><tspan
            sodipodi:role="line"
-           x="489.10968"
-           y="87.197205"
+           x="495.88568"
+           y="100.81149"
            id="tspan4611-1"
            style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:92.00000167%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Perpetua;-inkscape-font-specification:Perpetua">(210) 701-0665</tspan><tspan
            sodipodi:role="line"
-           x="489.10968"
-           y="109.27721"
+           x="495.88568"
+           y="122.89149"
            style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:92.00000167%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Perpetua;-inkscape-font-specification:Perpetua"
            id="tspan4743-0" /></text>
       <text
@@ -614,7 +617,7 @@
            id="tspan3799"
            x="491.35623"
            y="117.67715"
-           style="font-size:15.2809391px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans">jessica@jtaylorlaw.com</tspan></text>
+           style="font-size:15.2809391px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans" /></text>
     </g>
     <rect
        rx="12.000211"
