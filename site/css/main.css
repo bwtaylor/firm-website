@@ -128,6 +128,7 @@ td.regular-content {
     margin: 0;
     background-color: #f0f2fa;
     color: black;
+    vertical-align:top;
 }
 
 td.regular-content a {
