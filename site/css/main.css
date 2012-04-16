@@ -18,26 +18,30 @@
     margin-right: auto;
 	margin-left: auto;
 	position: relative;
+	border: none;
 }
 
 #maintable table.center {
-    width:855;
-    border: 1px solid #b22222;
+    width:852;
+    border: none;
 }
 
 #buttons {
-    width: 847px;
+    width: 842px;
     height: 36px;
     border: 1px solid white;
-    background-color: #b22222;
+    background-color: fireBrick;
     color: white;
     padding: 5;
     margin-right: auto;
 	margin-left: auto;
 	position: relative;
 	text-align:center;
-
 }
+
+#buttons a, #buttons a:visited {
+    text-decoration: none;
+}    
 
 td.practice-areas {
     width:280;
@@ -140,10 +144,55 @@ td.regular-content h1 {
     font-size: x-large;
 }
 
-tr {
-    border: 0;
-    padding: 0;
-    margin: 0;
+tr.footer {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    font-size: x-small;
+    vertical-align:top;
+    width: 855px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	border: none;
+}
+
+tr.footer td {
+    padding: 8;
+}
+
+tr.footer a, a:visited {
+    color: #374e9e;
+    padding: 10;
+    text-align: center;
+    font-size: small;
+}
+
+#disclaimer {
+    font-family: sans-serif;
+    border: none;
+    padding: 0 5 5 5;
+    background-color: black;
+    color: white;
+    font-size: x-small;
+    vertical-align:top;
+    width: 842px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: left;
+}
+
+
+table {
+    border: none;
+    padding: none;
+    margin: none;
+    border-collapse: collapse;
+    border-spacing: 0px;
 }
 
 body { 
