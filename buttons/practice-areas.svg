@@ -14,7 +14,7 @@
    id="svg3088"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/home-button.png"
+   inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/buttons/practice-areas.png"
    inkscape:export-xdpi="88.819565"
    inkscape:export-ydpi="88.819565"
    sodipodi:docname="practice-areas.svg">
@@ -28,10 +28,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.91251853"
-     inkscape:cx="178.07858"
+     inkscape:cx="38.651092"
      inkscape:cy="846.87275"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g9522"
      showgrid="false"
      inkscape:window-width="810"
      inkscape:window-height="796"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,7 +74,7 @@
          x="135.72868"
          style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f5f0d7;fill-opacity:1;stroke:none;font-family:Sans"
          xml:space="preserve"><tspan
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f5f0d7;fill-opacity:1;font-family:Perpetua Titling MT;-inkscape-font-specification:Perpetua Titling MT Bold;stroke:none"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Perpetua Titling MT;-inkscape-font-specification:Perpetua Titling MT Bold;stroke:none"
            y="365.17514"
            x="135.72868"
            id="tspan9419-2"
