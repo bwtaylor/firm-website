@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2904961"
-     inkscape:cx="135.27797"
-     inkscape:cy="819.47596"
+     inkscape:cx="91.10891"
+     inkscape:cy="912.46346"
      inkscape:document-units="px"
      inkscape:current-layer="g9522"
      showgrid="false"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,26 +60,29 @@
       <rect
          ry="30.30249"
          rx="0"
-         y="342.81198"
-         x="125.84489"
+         y="338.40747"
+         x="124.72391"
          height="30.30249"
-         width="158"
-         id="rect9413-4-6"
+         width="158.12547"
+         id="rect9413-4-6-3"
          style="fill:#e88888;fill-opacity:1;fill-rule:evenodd;stroke:none"
-         inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/contact-x-button.png"
-         inkscape:export-xdpi="88.819565"
-         inkscape:export-ydpi="88.819565" />
+         inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/buttons/contact-button.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
       <text
          sodipodi:linespacing="125%"
-         id="text9417-9"
-         y="365.17514"
-         x="135.72868"
+         id="text9417-9-5"
+         y="360.77063"
+         x="134.67044"
          style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
+         xml:space="preserve"
+         inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/buttons/contact-button.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
            style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Perpetua Titling MT;-inkscape-font-specification:Perpetua Titling MT Bold"
-           y="365.17514"
-           x="135.72868"
-           id="tspan9419-2"
+           y="360.77063"
+           x="134.67044"
+           id="tspan9419-2-9"
            sodipodi:role="line">Contact US</tspan></text>
     </g>
   </g>

@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2904961"
-     inkscape:cx="20.205944"
-     inkscape:cy="819.47596"
+     inkscape:cx="100.02021"
+     inkscape:cy="943.45929"
      inkscape:document-units="px"
      inkscape:current-layer="g9522"
      showgrid="false"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,26 +60,26 @@
       <rect
          ry="30.30249"
          rx="0"
-         y="342.0441"
-         x="124.26093"
+         y="346.15646"
+         x="130.55579"
          height="30.30249"
-         width="141"
-         id="rect9413-4-6"
+         width="143.36214"
+         id="rect9413-4-6-3"
          style="fill:#e88888;fill-opacity:1;fill-rule:evenodd;stroke:none"
          inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/resources-button.png"
          inkscape:export-xdpi="88.819565"
          inkscape:export-ydpi="88.819565" />
       <text
          sodipodi:linespacing="125%"
-         id="text9417-9"
-         y="365.17514"
-         x="135.72868"
+         id="text9417-9-0"
+         y="368.51962"
+         x="141.13333"
          style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
          xml:space="preserve"><tspan
            style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Perpetua Titling MT;-inkscape-font-specification:Perpetua Titling MT Bold"
-           y="365.17514"
-           x="135.72868"
-           id="tspan9419-2"
+           y="368.51962"
+           x="141.13333"
+           id="tspan9419-2-9"
            sodipodi:role="line">ResourCes</tspan></text>
     </g>
   </g>
