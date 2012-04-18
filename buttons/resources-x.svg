@@ -15,8 +15,8 @@
    version="1.1"
    inkscape:version="0.48.2 r9819"
    inkscape:export-filename="/Users/btaylor/src/firm-website/site/images/buttons/resources-x-button.png"
-   inkscape:export-xdpi="88.819565"
-   inkscape:export-ydpi="88.819565"
+   inkscape:export-xdpi="89.101585"
+   inkscape:export-ydpi="89.101585"
    sodipodi:docname="resources-x.svg">
   <defs
      id="defs3090" />
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
