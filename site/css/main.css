@@ -71,8 +71,7 @@
 }
 
 #maintable {
-    margin-right: auto;
-	margin-left: auto;
+    margin: 0px auto;
 	position: relative;
 	border: none;
 }
@@ -80,6 +79,7 @@
 #maintable table.center {
     width:852;
     border: none;
+    margin: 0px auto;
 }
 
 #buttonbar {
@@ -95,8 +95,8 @@
 #buttons {
     display: block;
     color: white;	
-    text-align: center;
     margin: 0px 5px;
+    position: relative;
 } 
 
 
@@ -288,6 +288,7 @@ table {
     margin: none;
     border-collapse: collapse;
     border-spacing: 0px;
+    position: relative;
 }
 
 body { 
