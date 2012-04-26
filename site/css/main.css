@@ -14,9 +14,11 @@
 	position: relative;
 }
 
+
 #buttons img {
-    position: relative;	
+    position: static;	
     float: left;
+    vertical-align:top;
 }
 
 #buttons #practice-areas-flyout ul.flyout {	
@@ -83,15 +85,14 @@
 }
 
 #buttons {
-    width: 842px;
-    height: 36px;
+    width: 853px;
+    height: 32px;
     border: 1px solid white;
     background-color: fireBrick;
     color: white;
-    padding: 5;
     margin-right: auto;
 	margin-left: auto;
-	position: relative;
+	position: static;
 	text-align:center;
 }
 
