@@ -14,11 +14,9 @@
 	position: relative;
 }
 
-
 #buttons img {
-    position: static;	
+    position: relative;	
     float: left;
-    vertical-align:top;
 }
 
 #buttons #practice-areas-flyout ul.flyout {	
@@ -33,7 +31,7 @@
     display: block;
     position: absolute;
     left: 325;	
-    top: 80%;	
+    top: 100%;	
     width: 260;	
     height: auto;	
     margin: 0;	
@@ -84,17 +82,23 @@
     border: none;
 }
 
-#buttons {
+#buttonbar {
     width: 853px;
-    height: 32px;
+    height: 30px;
     border: 1px solid white;
+    margin: 0px auto;
+    text-align: center;
     background-color: fireBrick;
-    color: white;
-    margin-right: auto;
-	margin-left: auto;
-	position: static;
-	text-align:center;
-}
+    position: relative;
+}    
+
+#buttons {
+    display: block;
+    color: white;	
+    text-align: center;
+    margin: 0px 5px;
+} 
+
 
 #buttons a, #buttons a:visited {
     text-decoration: none;
