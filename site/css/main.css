@@ -270,6 +270,12 @@ tr.footer a, a:visited {
 	text-align: left;
 }
 
+img {  
+    border-style: none;
+}
+
+
+
 
 table {
     border: none;
