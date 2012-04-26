@@ -90,18 +90,20 @@
     text-align: center;
     background-color: fireBrick;
     position: relative;
+    left: 0;
 }    
 
 #buttons {
     display: block;
     color: white;	
-    margin: 0px 5px;
+    margin: 0px;
     position: relative;
 } 
 
 
 #buttons a, #buttons a:visited {
     text-decoration: none;
+    padding: 0;
 }    
 
 td.practice-areas {
@@ -278,9 +280,6 @@ tr.footer a, a:visited {
 img {  
     border-style: none;
 }
-
-
-
 
 table {
     border: none;
