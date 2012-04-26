@@ -60,7 +60,7 @@
     color: white;
     display: block;
     text-decoration: none;
-    font-size: large;
+    font-size: 18;
     font-family: sans-serif;
 }
 
@@ -225,14 +225,14 @@ td.regular-content a {
 
 td.regular-content h1 {
     color: #1d2953;
-    font-size: x-large;
+    font-size: 24;
 }
 
 tr.footer {
     font-family: sans-serif;
     background-color: black;
     color: white;
-    font-size: x-small;
+    font-size: 10;
     vertical-align:top;
     width: 855px;
 	margin-right: auto;
@@ -251,7 +251,7 @@ tr.footer a, a:visited {
     color: #374e9e;
     padding: 10;
     text-align: center;
-    font-size: small;
+    font-size: 12;
 }
 
 #disclaimer {
@@ -260,7 +260,7 @@ tr.footer a, a:visited {
     padding: 0 5 5 5;
     background-color: black;
     color: white;
-    font-size: x-small;
+    font-size: 10;
     vertical-align:top;
     width: 842px;
 	margin-right: auto;
