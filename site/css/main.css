@@ -19,11 +19,20 @@
     float: left;
 }
 
+/*
 #buttons img[name="home"] {left: 10;}
 #buttons img[name="attorney-profile"] {left: 95;}
 #buttons img[name="practice-areas"] {left: 330;}
 #buttons img[name="resources"] {left: 529;}
 #buttons img[name="contact"] {left: 672;}
+*/
+
+#buttons #home {left: 10;}
+#buttons #attorney-profile {left: 95;}
+#buttons #practice-areas {left: 330;}
+#buttons #resources {left: 529;}
+#buttons #contact {left: 672;}
+    
 
 #buttons #practice-areas-flyout ul.flyout {	
     position: absolute;	
@@ -81,10 +90,14 @@
 	border: none;
 }
 
-#maintable table.center {
+table.center {
     width:852;
     border: none;
     margin: 0px auto;
+}
+
+table.center tr {
+    position: relative
 }
 
 #buttonbar {
@@ -95,7 +108,6 @@
     text-align: center;
     background-color: fireBrick;
     position: relative;
-    left: 0;
 }    
 
 #buttons {
