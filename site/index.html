@@ -7,23 +7,23 @@
   <script language="JavaScript" type="text/javascript">
   
   function highlight(item) {
-    var img = getChildRolloverImage(item)
-    var name = img.getAttribute("id")
-    img.setAttribute("src",  "images/buttons/" + name + "-x-button.png" )
+    var img = getChildRolloverImage(item);
+    var name = img.getAttribute("id");
+    img.setAttribute("src",  "images/buttons/" + name + "-x-button.png" );
     return true;
   } 
 
   function unhighlight(item){
-    var img = getChildRolloverImage(item)
-    var name = img.getAttribute("id")
-    img.setAttribute("src",  "images/buttons/" + name + "-button.png" )
+    var img = getChildRolloverImage(item);
+    var name = img.getAttribute("id");
+    img.setAttribute("src",  "images/buttons/" + name + "-button.png" );
     return true;
   }
   
   function getChildRolloverImage(item) {
       var children = item.getElementsByTagName("img");
       for (var i=0; i < children.length; i++) {
-          var node = children[i]
+          var node = children[i];
 		  if (node.getAttribute("class") == "rollover") {
 			  return node;
 		  }
