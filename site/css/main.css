@@ -15,9 +15,15 @@
 }
 
 #buttons img {
-    position: relative;	
+    position: absolute;	
     float: left;
 }
+
+#buttons img[name="home"] {left: 10;}
+#buttons img[name="attorney-profile"] {left: 95;}
+#buttons img[name="practice-areas"] {left: 330;}
+#buttons img[name="resources"] {left: 529;}
+#buttons img[name="contact"] {left: 672;}
 
 #buttons #practice-areas-flyout ul.flyout {	
     position: absolute;	
@@ -31,7 +37,7 @@
     display: block;
     position: absolute;
     left: 325;	
-    top: 100%;	
+    top: 30px;	
     width: 260;	
     height: auto;	
     margin: 0;	
@@ -39,7 +45,6 @@
     vertical-align:top;
     text-align:top;
     border: 1px solid #b22222;
-    padding: 15 5;
     margin: 0;
     background-color: #1d2953;
     color: white;
@@ -96,7 +101,6 @@
 #buttons {
     display: block;
     color: white;	
-    margin: 0px;
     position: relative;
 } 
 
