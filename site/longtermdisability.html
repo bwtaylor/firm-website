@@ -1,28 +1,29 @@
 <html>
 <head>
   <title>The Law Office of Jessica Taylor</title>
+  <meta name="description" content="The Law Office of Jessica Taylor - Texas Long Term Disability Lawyer - San Antonio Insurance Claim Laywer - San Antonio Divorce Lawyer">
   <link rel="icon" type="image/png" href="images/JT-logo-favicon.png" />
   <link rel="stylesheet" href="css/main.css" type="text/css" />
   <script language="JavaScript" type="text/javascript">
   
   function highlight(item) {
-    var img = getChildRolloverImage(item)
-    var name = img.getAttribute("name")
-    img.setAttribute("src",  "images/buttons/" + name + "-x-button.png" )
+    var img = getChildRolloverImage(item);
+    var name = img.getAttribute("id");
+    img.setAttribute("src",  "images/buttons/" + name + "-x-button.png" );
     return true;
   } 
 
   function unhighlight(item){
-    var img = getChildRolloverImage(item)
-    var name = img.getAttribute("name")
-    img.setAttribute("src",  "images/buttons/" + name + "-button.png" )
+    var img = getChildRolloverImage(item);
+    var name = img.getAttribute("id");
+    img.setAttribute("src",  "images/buttons/" + name + "-button.png" );
     return true;
   }
   
   function getChildRolloverImage(item) {
       var children = item.getElementsByTagName("img");
       for (var i=0; i < children.length; i++) {
-          var node = children[i]
+          var node = children[i];
 		  if (node.getAttribute("class") == "rollover") {
 			  return node;
 		  }
@@ -34,20 +35,21 @@
 <body>
   <div id="maintable">
   
-  <table class="center" align="center">
+  <table class="center">
   
   <!-- Header Row -->
   <tr>
     <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/logo-banner.png" width="853" height="150"></a><br/>
+    <div id="buttonbar">
     <div id="buttons">
       <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="index.html">
-        <img name="home" class="rollover" alt="Home" src="images/buttons/home-button.png" width="85" height="30"/>
+        <img id="home" class="rollover" alt="Home" src="images/buttons/home-button.png" width="85" height="30"/>
       </a>
       <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="jessica-taylor.html">
-        <img name="attorney-profile" class="rollover" alt="Attorney Profile" src="images/buttons/attorney-profile-button.png" width="235" height="30"/>
+        <img id="attorney-profile" class="rollover" alt="Attorney Profile" src="images/buttons/attorney-profile-button.png" width="235" height="30"/>
       </a>
       <div id="practice-areas-flyout">
-        <img name="practice-areas" class="rollover" alt="Practice Areas" src="images/buttons/practice-areas-button.png" width="199" height="30"/>
+        <img id="practice-areas" class="rollover" alt="Practice Areas" src="images/buttons/practice-areas-button.png" width="199" height="30"/>
         <ul class="flyout">
           <li><a href="longtermdisability.html">Long Term Disability</a></li>
           <li><a href="insurance-litigation.html">Insurance Litigation</a></li>
@@ -56,15 +58,16 @@
         </ul>
       </div>
       <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)"  href="resources.html">
-        <img name="resources" class="rollover" alt="Resources" src="images/buttons/resources-button.png" width="143" height="30"/>
+        <img id="resources" class="rollover" alt="Resources" src="images/buttons/resources-button.png" width="143" height="30"/>
       </a>
       <a onMouseOver="highlight(this)" onMouseOut="unhighlight(this)" href="contact.html">
-        <img name="contact" class="rollover" alt="Contact" src="images/buttons/contact-button.png" width="158" height="30"/>
+        <img id="contact" class="rollover" alt="Contact" src="images/buttons/contact-button.png" width="158" height="30"/>
       </a>
+    </div>
     </div>
     <a href="index.html"><img alt="The Law Offices of Jessica Taylor" src="images/sc-banner.png" width="853" height="240"></a><br/>
   </tr>
-  
+   
   <!-- Content Row -->  
   <tr>
     <td class="practice-areas">
