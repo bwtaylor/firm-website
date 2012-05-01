@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
      
     // CHANGE THE TWO LINES BELOW
-    $email_to = "bryan@jtaylorlaw.com";
+    $email_to = "jessica@jtaylorlaw.com";
      
      
      
