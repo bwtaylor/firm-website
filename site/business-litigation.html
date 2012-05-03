@@ -80,6 +80,33 @@
       </ul>
       <p/>
       
+      <h1>Contact Us</h1>
+      
+      <form id="email" name="email" method="post" action="email/send.php">
+      <table class="email-form">
+      <tr>
+        <td><label for="name">Name *</label></td>
+        <td><input type="text" name="name" maxlength="50" size="30"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email *</label></td>
+        <td><input type="text" name="email" maxlength="80" size="30"></td>
+      </tr>
+      <tr>
+        <td><label for="phone">Phone</label></td>
+        <td><input  type="text" name="phone" maxlength="30" size="30"></td>
+      </tr>
+      <tr>
+        <td><label for="message">Message</label></td>
+        <td><textarea type="text" name="message" maxlength="1000" cols="25" rows="6"></textarea></td>
+      </tr>
+      <tr>
+        <td id="email-submit" colspan="2"> <input type="submit" value="Submit"></td>
+      </tr>
+      
+      </table>
+      </form>
+
       <div id="blog">
         <h1>Read Our Blog</h1>
         <a href="index.html"><img src="images/blog-icon.png" alt="Jessica Taylor's Blog"/></a><br/>
