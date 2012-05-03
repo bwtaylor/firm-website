@@ -7,15 +7,10 @@
 #header  {
 	height: 415px;
 	width: 853px;
-	background-image: url(../images/big-banner.png);
-	margin-right: auto;
-	margin-left: auto;
-	background-repeat: no-repeat;
-	position: relative;
+	background-image: url('../images/big-banner.png') auto auto no-repeat;
 }
 
 #buttons img {
-    position: relative;
     float: left;	
 }
 
@@ -38,16 +33,15 @@
 #buttons #practice-areas-flyout:hover ul.flyout {	
     display: block;
     position: absolute;
-    left: 325;	
+    left: 325px;	
     top: 30px;	
-    width: 260;	
+    width: 260px;	
     height: auto;	
     margin: 0;	
     padding: 0 ;	
     vertical-align:top;
     text-align:top;
     border: 1px solid #b22222;
-    margin: 0;
     background-color: #1d2953;
     color: white;
 }
@@ -102,11 +96,9 @@ table.center tr {
     text-align: center;
     background-color: fireBrick;
     position: static;
-    top: -2px;
 }
 
 #buttons {
-    display: block;
     color: white;
     position: relative;
 } 
