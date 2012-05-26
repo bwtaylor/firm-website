@@ -7,15 +7,10 @@
 #header  {
 	height: 415px;
 	width: 853px;
-	background-image: url(../images/big-banner.png);
-	margin-right: auto;
-	margin-left: auto;
-	background-repeat: no-repeat;
-	position: relative;
+	background-image: url('../images/big-banner.png') auto auto no-repeat;
 }
 
 #buttons img {
-    position: relative;
     float: left;	
 }
 
@@ -38,16 +33,15 @@
 #buttons #practice-areas-flyout:hover ul.flyout {	
     display: block;
     position: absolute;
-    left: 325;	
+    left: 325px;	
     top: 30px;	
-    width: 260;	
+    width: 260px;	
     height: auto;	
     margin: 0;	
     padding: 0 ;	
     vertical-align:top;
     text-align:top;
     border: 1px solid #b22222;
-    margin: 0;
     background-color: #1d2953;
     color: white;
 }
@@ -61,7 +55,7 @@
 #buttons #practice-areas-flyout ul.flyout li a:visited
 {
     width:180;
-    background: url(../images/arrow.png) 8 0 no-repeat;
+    background: url('../images/arrow.png') 8px 0px no-repeat;
     background-color: #374e9e;
     padding: 0 40 8;
     color: white;
@@ -69,10 +63,11 @@
     text-decoration: none;
     font-size: 18;
     font-family: sans-serif;
+    text-align: left;
 }
 
 #buttons #practice-areas-flyout ul.flyout li a:hover {
-    background: url(../images/arrow.png) 8 0 no-repeat;
+    background: url('../images/arrow.png') 8px 0px no-repeat;
     background-color: #b22222;
     color: white;
 }
@@ -100,12 +95,12 @@ table.center tr {
     margin: 0px auto;
     text-align: center;
     background-color: fireBrick;
-    position: relative;
-}    
+    position: static;
+}
 
 #buttons {
-    display: block;
-    color: white;	
+    color: white;
+    position: relative;
 } 
 
 
@@ -156,6 +151,7 @@ td.practice-areas li {
     font-family: sans-serif;
     font-size: 20px;
     width:270;
+    width: 300\9;
     margin: 0; 
     padding: 0 20 10; 
 } 
@@ -163,20 +159,20 @@ td.practice-areas li {
 td.practice-areas a ,
 td.practice-areas a:visited
 {
-    background: url(../images/arrow.png) 8 0 no-repeat;
+    background: url('../images/arrow.png') 8px 0px no-repeat;
     background-color: #374e9e;
     padding: 0 40 2;
     color: white;
     display: block;
     text-decoration: none;
     font-size: 20px;
+    text-align: left;
 }
 
 td.practice-areas a.active,  
 td.practice-areas a:hover
 {
-    background: url(../images/arrow.png) 8 0 no-repeat;
-    background-color: #b22222;
+    background: #b22222 url('../images/arrow.png') 8px 0px no-repeat;
     color: white;
 }
 
@@ -263,6 +259,7 @@ td.practice-areas a:hover
 
 td.regular-content {
     font-family: sans-serif;
+    font-size: 16px;
     border: 1px solid #b22222;
     padding: 10;
     margin: 0;
@@ -272,8 +269,18 @@ td.regular-content {
 }
 
 td.regular-content a {
+    font-family: sans-serif;
+    font-size: 16px;
     color: #1d2953;
 }
+
+td.regular-content a:visited {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
 
 td.regular-content h1 {
     color: #1d2953;
@@ -324,6 +331,11 @@ tr.footer a, a:visited {
 	background-repeat: no-repeat;
 	position: relative;
 	text-align: left;
+}
+
+a {
+    padding: none;
+    margin: none;
 }
 
 img {  
